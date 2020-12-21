@@ -1,0 +1,30 @@
+<app-navbar></app-navbar>
+<section class="banner-blog banner-blog-details">
+</section>
+<section class="blog-details">
+    <div class="cvt-breadcrumbs">
+        <div class="container">
+            <div class="wrap-top clearfix">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="content" *ngIf="show_data">
+                        <ul class="breadcrumb">                                
+                            <li><a href="/news">ข่าวประชาสัมพันธ์ </a></li>
+                            <li class="active"><a>{{show_data.name}}</a></li>
+                        </ul>
+
+                        <h2>{{show_data.name}}</h2>
+                        <div class="date">
+                            <p> วันที่ : <span>{{show_data.date}}    </span> โดย : <span>{{show_data.by}}</span></p>
+                        </div>
+                        <div class="item" *ngFor="let item of show_data.detail">
+                            <p class="detail">{{item}}</p>
+     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+<app-footer></app-footer>

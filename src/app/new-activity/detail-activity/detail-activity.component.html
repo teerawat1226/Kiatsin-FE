@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+<!-- SLIDER -->
+<div *ngIf="show_data">
+    <section id="breadcrumb" class="breadcrumb-v2">
+        <div class="container">
+            <div class="cvt-breadcrumbs">
+                <ul class="breadcrumb"> 
+                    <li><a href="/activity">กิจกรรมเพื่อสังคม</a></li>
+                    <li  class="active"><a >{{show_data.name}}</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="section-slider height-v">
+        <div class="container">
+            <div class="breadcrumb-content">
+                <p class="title">{{show_data.name}}</p>
+                <p class="detail">{{show_data.detail}}</p>
+            </div>
+        </div>
+        <div id="index12" class="owl-carousel  owl-theme">
+            <div class="item" *ngFor="let item of show_data.image">
+                <img alt="Third slide" src="{{item}}" class="img-responsive">
+            </div>
+        </div>
+    </section>
+</div>
+
+<app-footer></app-footer>

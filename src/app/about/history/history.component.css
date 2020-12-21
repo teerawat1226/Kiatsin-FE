@@ -1,0 +1,295 @@
+
+.title-languages {
+    color: #232323;
+    margin-top: 55px;
+    font-family: 'thaisansneue-bold';
+    font-size: 1.5vw;
+    letter-spacing: 1px;
+    border-radius: 50px;
+}
+
+.btn {
+    outline: none;
+    border-radius: 50%;
+    border: 1px solid #e7e7e7;
+    margin-left: 10px;
+    font-size: 1.5vw;
+
+}
+
+.btn:hover{
+    background-color: #f1ea03;
+    border:1px solid #f1ea03;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .btn {
+        outline: none;
+        border-radius: 50%;
+        border: 1px solid #e7e7e7;
+        margin-left: 10px;
+        font-size: 5vw;
+    
+    }
+    
+    .btn:hover{
+        background-color: #f1ea03;
+        border:1px solid #f1ea03;
+    }
+
+    .about-top .post-type span{
+        font-size: 5vw;
+        font-family: 'thaisansneue-bold';
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    .title-heading {
+        color: #232323;
+        margin-top: 55px;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+
+    .desc-about p {
+        color: #111111;
+        margin-top: 30px;
+        opacity: 0.7;
+        line-height: 30px;
+        font-family: 'thaisansneue-regular';
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+
+    .testimonials-quote{
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+    }
+    .testimonial .testimonials-profile .name{
+        font-family: 'thaisansneue-bold';
+        font-size: 4vw;
+    }
+
+    .job{
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+  }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .btn {
+        outline: none;
+        border-radius: 50%;
+        border: 1px solid #e7e7e7;
+        margin-left: 10px;
+        font-size: 5vw;
+    
+    }
+    
+    .btn:hover{
+        background-color: #f1ea03;
+        border:1px solid #f1ea03;
+    }
+
+    .about-top .post-type span{
+        font-size: 5vw;
+        font-family: 'thaisansneue-bold';
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    .title-heading {
+        color: #232323;
+        margin-top: 55px;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+
+    .desc-about p {
+        color: #111111;
+        margin-top: 30px;
+        opacity: 0.7;
+        line-height: 30px;
+        font-family: 'thaisansneue-regular';
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+
+    .testimonials-quote{
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+    }
+    .testimonial .testimonials-profile .name{
+        font-family: 'thaisansneue-bold';
+        font-size: 4vw;
+    }
+
+    .job{
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+    .btn {
+        outline: none;
+        border-radius: 50%;
+        border: 1px solid #e7e7e7;
+        margin-left: 10px;
+        font-size: 4vw;
+    
+    }
+    
+    .btn:hover{
+        background-color: #f1ea03;
+        border:1px solid #f1ea03;
+    }
+
+    .about-top .post-type span{
+        font-size: 4vw;
+        font-family: 'thaisansneue-bold';
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    .title-heading {
+        color: #232323;
+        margin-top: 55px;
+        font-family: 'thaisansneue-bold';
+        font-size: 4vw;
+        letter-spacing: 1px;
+    }
+
+    .desc-about p {
+        color: #111111;
+        margin-top: 30px;
+        opacity: 0.7;
+        line-height: 30px;
+        font-family: 'thaisansneue-regular';
+        font-size: 4vw;
+        letter-spacing: 1px;
+    }
+
+    .testimonials-quote{
+        font-family: 'thaisansneue-bold';
+        font-size: 4vw;
+    }
+    .testimonial .testimonials-profile .name{
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+
+    .job{
+        font-family: 'thaisansneue-bold';
+        font-size: 2vw;
+    }
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+    .btn {
+        outline: none;
+        border-radius: 50%;
+        border: 1px solid #e7e7e7;
+        margin-left: 10px;
+        font-size: 3.5vw;
+    
+    }
+    
+    .btn:hover{
+        background-color: #f1ea03;
+        border:1px solid #f1ea03;
+    }
+
+    .about-top .post-type span{
+        font-size: 3.5vw;
+        font-family: 'thaisansneue-bold';
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    .title-heading {
+        color: #232323;
+        margin-top: 55px;
+        font-family: 'thaisansneue-bold';
+        font-size: 3.5vw;
+        letter-spacing: 1px;
+    }
+
+    .desc-about p {
+        color: #111111;
+        margin-top: 30px;
+        opacity: 0.7;
+        line-height: 30px;
+        font-family: 'thaisansneue-regular';
+        font-size: 3.5vw;
+        letter-spacing: 1px;
+    }
+
+    .testimonials-quote{
+        font-family: 'thaisansneue-bold';
+        font-size: 3.5vw;
+    }
+    .testimonial .testimonials-profile .name{
+        font-family: 'thaisansneue-bold';
+        font-size: 2.5vw;
+    }
+
+    .job{
+        font-family: 'thaisansneue-bold';
+        font-size: 1.8vw;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+    
+    .about-top .post-type span{
+        font-size: 3vw;
+        font-family: 'thaisansneue-bold';
+        color: black;
+        letter-spacing: 1px;
+    }
+
+    .title-heading {
+        color: #232323;
+        margin-top: 55px;
+        font-family: 'thaisansneue-bold';
+        font-size: 2vw;
+        letter-spacing: 1px;
+    }
+
+    .desc-about p {
+        color: #111111;
+        margin-top: 30px;
+        opacity: 0.7;
+        line-height: 30px;
+        font-family: 'thaisansneue-regular';
+        font-size: 1.5vw;
+        letter-spacing: 1px;
+    }
+
+    .testimonials-quote{
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+    .testimonial .testimonials-profile .name{
+        font-family: 'thaisansneue-bold';
+        font-size: 2vw;
+    }
+
+    .job{
+        font-family: 'thaisansneue-bold';
+        font-size: 1.8vw;
+    }
+
+ }

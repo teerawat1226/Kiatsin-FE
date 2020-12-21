@@ -1,0 +1,252 @@
+.all-product{
+    width: 100%;
+}
+
+.title {
+    display: inline-block;
+    width: 100%;
+}
+
+.banner-v5 img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.contact-v5 .wrap-left p {
+    color: #909090 ;
+    margin-top: 25px ;
+    margin-bottom: 23px ;
+    font-family: 'thaisansneue-regular';
+    letter-spacing: 1px;
+}
+
+@media (max-width: 575.98px) {
+
+
+
+    .mobile-img{
+        display: block;
+        max-width: 70%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 5%;
+    }
+
+    .contact-v5 .wrap-left p {
+        color: #909090 ;
+        margin-top: 25px ;
+        margin-bottom: 23px ;
+        font-family: 'thaisansneue-regular';
+        font-size: 5vw ;
+        letter-spacing: 1px;
+    }
+
+    .contact-v2 .wrap-left .title {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-bold';
+        font-size: 6vw;
+    }
+    
+    .contact-v2 .wrap-left .year {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-regular';
+        font-size: 5vw;
+        letter-spacing: 1px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+    }
+    .text-detail{ 
+        text-align: center;
+        font-family: 'thaisansneue-regular';
+        font-size: 5vw;
+    }
+    .text-detail:hover{ 
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+        color: #3e1674;
+    }
+
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .mobile-img{
+        display: block;
+        max-width: 70%;
+        height: auto;
+        margin-left: 50px;
+        margin-top: 5%;
+    }
+    .contact-v5 .wrap-left p {
+        color: #909090 ;
+        margin-top: 25px ;
+        margin-bottom: 23px ;
+        font-family: 'thaisansneue-regular';
+        font-size: 3vw ;
+        letter-spacing: 1px;
+    }
+
+    .contact-v2 .wrap-left .title {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-bold';
+        font-size: 4vw;
+    }
+    
+    .contact-v2 .wrap-left .year {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-regular';
+        font-size: 3vw;
+        letter-spacing: 1px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+    .text-detail{ 
+        text-align: center;
+        font-family: 'thaisansneue-regular';
+        font-size: 2.5vw;
+    }
+    .text-detail:hover{ 
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 2.5vw;
+        color: #3e1674;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {  
+
+    . .contact-v5 .wrap-left p {
+        color: #909090 ;
+        margin-top: 25px ;
+        margin-bottom: 23px ;
+        font-family: 'thaisansneue-regular';
+        font-size: 1.7vw ;
+        letter-spacing: 1px;
+    }
+
+    .contact-v2 .wrap-left .title {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-bold';
+        font-size: 3.5vw;
+    }
+    
+    .contact-v2 .wrap-left .year {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-regular';
+        font-size: 2vw;
+        letter-spacing: 1px;
+    }
+    
+    .text-center {
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+    .text-detail{ 
+        text-align: center;
+        font-family: 'thaisansneue-regular';
+        font-size: 2vw;
+    }
+    .text-detail:hover{ 
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 2vw;
+        color: #3e1674;
+    }
+   
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+    .contact-v5 .wrap-left p {
+        color: #909090 ;
+        margin-top: 25px ;
+        margin-bottom: 23px ;
+        font-family: 'thaisansneue-regular';
+        font-size: 2vw ;
+        letter-spacing: 1px;
+    }
+
+    .contact-v2 .wrap-left .title {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-bold';
+        font-size: 3.5vw;
+    }
+    
+    .contact-v2 .wrap-left .year {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-regular';
+        font-size: 1.7vw;
+        letter-spacing: 1px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+    .text-detail{ 
+        text-align: center;
+        font-family: 'thaisansneue-regular';
+        font-size: 2vw;
+    }
+    .text-detail:hover{ 
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 2vw;
+        color: #3e1674;
+    }
+
+  }
+
+@media (min-width: 1200px) { 
+
+
+    .contact-v5 .wrap-left p {
+        color: #909090 ;
+        margin-top: 25px ;
+        margin-bottom: 23px ;
+        font-family: 'thaisansneue-regular';
+        font-size: 1.7vw ;
+        letter-spacing: 1px;
+    }
+
+    .contact-v2 .wrap-left .title {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-bold';
+        font-size: 3.5vw;
+    }
+    
+    .contact-v2 .wrap-left .year {
+        color: #2b2b2b;
+        font-family: 'thaisansneue-regular';
+        font-size: 1.7vw;
+        letter-spacing: 1px;
+    }
+
+    .text-center {
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+    .text-detail{ 
+        text-align: center;
+        font-family: 'thaisansneue-regular';
+        font-size: 1.7vw;
+    }
+    .text-detail:hover{ 
+        text-align: center;
+        font-family: 'thaisansneue-bold';
+        font-size: 1.7vw;
+        color: #3e1674;
+    }
+}
+

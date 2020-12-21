@@ -1,0 +1,142 @@
+.line-under-name{
+    border: 1px solid black;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container{
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+}
+
+/* style="color:slategrey;" */
+.text-details{
+    color:slategrey;
+}
+
+@media (max-width: 575.98px) { 
+    .img-inbox{
+        width: 60%;
+    }
+
+    .text-center-title {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-bold';
+        font-size: 6vw;
+    }
+    
+    .text-center {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-regular';
+        font-size: 4vw;
+        letter-spacing: 1px;
+    }
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .img-inbox{
+        width: 40%;
+    }
+
+    .text-center-title {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-bold';
+        font-size: 6vw;
+    }
+    
+    .text-center {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-regular';
+        font-size: 4vw;
+        letter-spacing: 1px;
+    }
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .img-inbox{
+        width: 70%;
+    }
+
+    .text-center-title {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+    }
+    
+    .text-center {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-regular';
+        font-size: 2vw;
+        letter-spacing: 1px;
+    }
+
+  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .img-inbox{
+        width: 50%;
+    }
+
+    .text-center-title {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+    }
+    
+    .text-center {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-regular';
+        font-size: 2vw;
+        letter-spacing: 1px;
+    }
+
+  }
+
+
+@media (min-width: 1200px) { 
+    .img-inbox{
+        width: 60%;
+    }
+    
+    .text-center-title {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-bold';
+        font-size: 3.5vw;
+    }
+    
+    .text-center {
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        font-family: 'thaisansneue-regular';
+        font-size: 1.5vw;
+        letter-spacing: 1px;
+    }
+ }

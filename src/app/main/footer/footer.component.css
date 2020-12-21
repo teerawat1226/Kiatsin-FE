@@ -1,0 +1,149 @@
+.scrollToTop {
+    width: 42px;
+    height: 42px;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    display: none;
+    font-size: 30px;
+    background:#f1ea03;
+    color: #000000;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 35px;
+    z-index: 999;
+}
+
+.footer .footer-bottom .menu-footer {
+    /* text-align: center; */
+    margin-bottom: 30px;
+    font-family: 'thaisansneue-regular';
+    font-size: 20px;
+}
+
+.social a:last-child {
+    margin-right: 5px !important;
+    font-family: 'thaisansneue-regular';
+    font-size: 20px;
+}
+
+@media (max-width: 575.98px) { 
+   
+    
+
+    
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .scrollToTop {
+        width: 42px;
+        height: 42px;
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+        display: none;
+        font-size: 30px;
+        background: #f1ea03;
+        color: #000000;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 35px;
+        z-index: 999;
+    }
+
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .scrollToTop {
+        width: 42px;
+        height: 42px;
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+        display: none;
+        font-size: 30px;
+        background:#f1ea03;
+        color: #000000;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 35px;
+        z-index: 999;
+    }
+
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    
+
+    .scrollToTop {
+        width: 42px;
+        height: 42px;
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+        display: none;
+        font-size: 30px;
+        background: #f1ea03;
+        color: #000000;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 35px;
+        z-index: 999;
+    }
+  }
+
+
+@media (min-width: 1200px) { 
+
+    .scrollToTop {
+        width: 42px;
+        height: 42px;
+        position: fixed;
+        bottom: 5%;
+        right: 2%;
+        display: none;
+        font-size: 30px;
+        background:#f1ea03;
+        color: #000000;
+        border-radius: 50px;
+        text-align: center;
+        line-height: 35px;
+        z-index: 999;
+    }
+    img{
+        border-radius: 50%;
+        border:1px solid #e7e7e7;
+        
+    }
+    img:hover{
+        background : #f1ea03;
+        border:1px solid #f1ea03;
+    }
+    
+    .footer .footer-bottom .social {
+        padding: 10px 0;
+        text-align: center;
+    }
+    
+    .footer .footer-bottom .menu-footer {
+        padding: 22px 0;
+        font-family: 'thaisansneue-regular';
+        font-size: 22px;
+    }
+    
+    .detail-foot{
+        font-family: 'thaisansneue-regular';
+        font-size: 25px;
+    }
+    .detail-foot:hover{
+        font-family: thaisansneue_bold;
+        font-size: 25px;
+        color:#3e1674;
+    }
+    
+ }

@@ -1,0 +1,138 @@
+<app-navbar></app-navbar>
+<!-- SLIDER -->
+<section class="section-slider-v6 section-slider-v7 height-v">
+    <div class="container" style="width: 100%;">
+        <div id="slider-v6" class="slider-default">
+            <div class="slider-img slider-v6">
+                <img alt="Third slide" src="assets/images/history/image_3.png" class="img-responsive">
+            </div>
+            <div class="slider-img slider-v6">
+                <img alt="Third slide" src="assets/images/history/image_2.png" class="img-responsive">
+            </div>
+            <div class="slider-img slider-v6">
+                <img alt="Third slide" src="assets/images/history/image_1.png" class="img-responsive">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- <section class="banner-header about-us"></section> -->
+<section class="about-content">
+    <div class="container">
+        <div class="about-top">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="post-type">
+                        <div class="inner">
+                            <span>KIATSIN <br>
+                                WHOLESALE <br>
+                                เกียรติสิน โฮลเซล <br>
+                                ........... <br>
+                                “ราคาถูกใจ <br>
+                                สบายใกล้บ้าน”
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="desc-about">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                                <div class="title-heading">
+                                    ประวัติความเป็นมาของบริษัท
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                                <div class="title-languages">
+                                    <a href="/history?ID=1" class="btn">ไทย</a>
+                                    <a href="/history?ID=2" class="btn">EN</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div *ngIf="show_data">
+                            <div class="item" *ngFor="let item of show_data.detail">
+                                <p class="detail">{{item}}</p>
+                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-center">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="desc-about">
+                        <div class="title-heading">
+                            TIME LINE
+                        </div>
+                        <p><b>พ.ศ. 2503 </b><br>ก่อตั้ง “ร้านเกียรติสิน”</p>
+                        <p><b>พ.ศ. 2510 </b><br>ย้ายมาตั้งร้านค้าฯ ที่ถนนประพัทธ์บำรุง</p>
+                        <p><b>พ.ศ. 2537 </b><br>จดทะเบียน “ห.จ.ก. บ้านไผ่เกียรติสิน”</p>
+                        <p><b>พ.ศ. 2545 </b><br>จดทะเบียน “บริษัท เกียรติสินโฮลเซล จำกัด”</p>
+                        <p><b>พ.ศ. 2547 </b><br>เปิดกิจการค้าปลีกค้าส่ง “เกียรติสินโฮลเซล”</p>
+                        <p><b>พ.ศ. 2556 </b><br>เปิด “คลังเกียรติสิน”</p>
+                        <p><b>พ.ศ. 2563 </b><br>เปิด “เกียรติสิน ONLINE”</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="desc-about">
+                        <div class="title-heading">
+                            ประวัติผู้บริหาร
+                        </div>
+                        <p><b>คุณนิธิดา จรรยานิทัศน์ </b><br>
+                            เกิด วันที่ 28 กันยายน 2498 <br>
+                            สถานะภาพทางครอบครัว โสด <br>
+                            จบการศึกษา มัธยมศึกษาตอนต้น (ม.ศ. 3) โรงเรียนมูลนิธิบ้านไผ่วิทยา
+                        </p>
+                        <p><b>คุณนิรามัย จรรยานิทัศน์ </b><br>
+                            เกิดวันที่ 25 พฤศจิกายน 2505 <br>
+                            สถานะภาพทางครอบครัว โสด <br>
+                            จบการศึกษา มัธยมศึกษาตอนต้น (ม.ศ.3) โรงเรียนมูลนิธิบ้านไผ่วิทยา
+                        </p>
+                        <p><b>คุณนริศร จรรยานิทัศน์</b><br>
+                            เกิดวันที่ 8 มิถุนายน 2511 <br>
+                            สถานะภาพทางครอบครัว สมรสกับ คุณดรุณี เกษมชัยศิริสันติ์ บุตร-ธิดา รวม 3 คน
+                            จบการศึกษา ธุรกิจมหาบัณฑิต มหาวิทยาลัยรามคำแหง สาขาวิทยบริการเฉลิมพระเกียรติ จังหวัดขอนแก่น
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonial">
+    <div class="container-fluid">
+        <div class="testimonials-body">
+            <div class="bg-testimonials"></div>
+            <div class="testimonial-content carousel-slide">
+                <div class="slider-testimonial">
+                    <div class="testimonials-quote">
+                        <i class="fa fa-quote-left"></i>
+                        <p>วิสัยทัศน์ผู้บริหาร <br>
+                            “เราทำการค้าคู่คุณธรรม และจะขอยืนเคียงข้างสังคมคนบ้านเราต่อไป”
+                        </p>
+                    </div>
+                    <div class="testimonials-profile">
+                        <p class="name">คุณนิธิดา จรรยานิทัศน์ </p>
+                        <div class="job">กรรมการบริหารฯ</div>
+                    </div>
+                </div>
+                <div class="slider-testimonial">
+                    <div class="testimonials-quote">
+                        <i class="fa fa-quote-left"></i>
+                        <p>วิสัยทัศน์ผู้บริหาร <br> “เราขายสินค้าบนความต้องการของลูกค้า ในราคาที่เหมาะสม”
+                        </p>
+                    </div>
+                    <div class="testimonials-profile">
+                        <p class="name">คุณนริศร จรรยานิทัศน์ </p>
+                        <div class="job"> กรรมการผู้จัดการ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<app-footer></app-footer>

@@ -1,0 +1,150 @@
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.title_header[_ngcontent-rhv-c27] {
+    color: white;
+    line-height: 0.9;
+    letter-spacing: 0;
+    font-family: 'thaisansneue-bold';
+    font-size: 8vw;
+    margin-top: 20;
+}
+
+.line-under-name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 20;
+    border-top: 2px solid yellow;
+    width: 8%;
+}
+
+.title-wallpaper{
+    letter-spacing: 1px;
+    font-family: 'thaisansneue-bold';
+    font-size: 5vw;
+}
+
+/* .title {
+    letter-spacing: 1px;
+    font-family: 'thaisansneue-bold';
+}
+
+.blog_title{
+    letter-spacing: 1px;
+    font-family: 'thaisansneue-bold';
+}
+.blog_content{
+    letter-spacing: 1px;
+    font-family: 'thaisansneue-regular';
+} */
+
+
+@media (max-width: 575.98px) { 
+    .title {
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 6vw;
+    }
+
+    .blog_title{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+    }
+    .blog_content{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-regular';
+        font-size: 5vw;
+    }
+
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .title {
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 6vw;
+    }
+
+    .blog_title{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+    }
+    .blog_content{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-regular';
+        font-size: 5vw;
+    }
+
+  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .title {
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 5vw;
+    }
+
+    .blog_title{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 3vw;
+    }
+    .blog_content{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-regular';
+        font-size: 3vw;
+    }
+
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .title {
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 4vw;
+    }
+
+    .blog_title{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 2.5vw;
+    }
+    .blog_content{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-regular';
+        font-size: 2.5vw;
+    }
+
+  }
+
+
+@media (min-width: 1200px) { 
+
+    .title {
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 2vw;
+    }
+
+    .blog_title{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-bold';
+        font-size: 1.5vw;
+    }
+    .blog_content{
+        letter-spacing: 1px;
+        font-family: 'thaisansneue-regular';
+        font-size: 1.5vw;
+    }
+
+
+ }
